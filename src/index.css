@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.piece {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.piece input,
+.piece select {
+  font-size: inherit;
+  background-color: white;
+  padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.reset {
+  font-size: inherit;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
